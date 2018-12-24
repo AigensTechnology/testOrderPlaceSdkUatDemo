@@ -12,9 +12,11 @@
 		522BC51C21A6B82C00A56E52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522BC51A21A6B82C00A56E52 /* Main.storyboard */; };
 		522BC51E21A6B82E00A56E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522BC51D21A6B82E00A56E52 /* Assets.xcassets */; };
 		522BC52121A6B82E00A56E52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522BC51F21A6B82E00A56E52 /* LaunchScreen.storyboard */; };
+		CEA98A0CC4B51081959A2ABA /* Pods_testMyNewOrderPlaceUat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E83DBC66B9212F21258893A3 /* Pods_testMyNewOrderPlaceUat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1DB64FA5203C06C6B113FC3C /* Pods-testMyNewOrderPlaceUat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testMyNewOrderPlaceUat.release.xcconfig"; path = "Pods/Target Support Files/Pods-testMyNewOrderPlaceUat/Pods-testMyNewOrderPlaceUat.release.xcconfig"; sourceTree = "<group>"; };
 		522BC51321A6B82C00A56E52 /* testMyNewOrderPlaceUat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testMyNewOrderPlaceUat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		522BC51621A6B82C00A56E52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		522BC51821A6B82C00A56E52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		522BC51D21A6B82E00A56E52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		522BC52021A6B82E00A56E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		522BC52221A6B82E00A56E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76E040EB031AF660A4301533 /* Pods-testMyNewOrderPlaceUat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testMyNewOrderPlaceUat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testMyNewOrderPlaceUat/Pods-testMyNewOrderPlaceUat.debug.xcconfig"; sourceTree = "<group>"; };
+		E83DBC66B9212F21258893A3 /* Pods_testMyNewOrderPlaceUat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testMyNewOrderPlaceUat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA98A0CC4B51081959A2ABA /* Pods_testMyNewOrderPlaceUat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				522BC51521A6B82C00A56E52 /* testMyNewOrderPlaceUat */,
 				522BC51421A6B82C00A56E52 /* Products */,
+				F8FE4376797BF5838744ADDE /* Pods */,
+				A7A75310AD7726B77786E337 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = testMyNewOrderPlaceUat;
 			sourceTree = "<group>";
 		};
+		A7A75310AD7726B77786E337 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E83DBC66B9212F21258893A3 /* Pods_testMyNewOrderPlaceUat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8FE4376797BF5838744ADDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76E040EB031AF660A4301533 /* Pods-testMyNewOrderPlaceUat.debug.xcconfig */,
+				1DB64FA5203C06C6B113FC3C /* Pods-testMyNewOrderPlaceUat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 522BC52521A6B82E00A56E52 /* Build configuration list for PBXNativeTarget "testMyNewOrderPlaceUat" */;
 			buildPhases = (
+				E347B412E414E6A9E4C8922E /* [CP] Check Pods Manifest.lock */,
 				522BC50F21A6B82C00A56E52 /* Sources */,
 				522BC51021A6B82C00A56E52 /* Frameworks */,
 				522BC51121A6B82C00A56E52 /* Resources */,
+				7E229F2E7B06CF4B505EB221 /* [CP] Embed Pods Frameworks */,
+				4C0AF272EF62F1A73A326560 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,79 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C0AF272EF62F1A73A326560 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-testMyNewOrderPlaceUat/Pods-testMyNewOrderPlaceUat-resources.sh",
+				"${PODS_ROOT}/OrderPlaceSdkUat/Classess/Assets/AlipaySDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlipaySDK.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testMyNewOrderPlaceUat/Pods-testMyNewOrderPlaceUat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E229F2E7B06CF4B505EB221 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-testMyNewOrderPlaceUat/Pods-testMyNewOrderPlaceUat-frameworks.sh",
+				"${PODS_ROOT}/OrderPlaceSdkUat/Classess/frameworks/orderPlaceAlipaySDK/OrderPlaceAlipaySDK.framework",
+				"${PODS_ROOT}/OrderPlaceSdkUat/Classess/frameworks/orderPlaceSDK/OrderPlaceSDK.framework",
+				"${PODS_ROOT}/OrderPlaceSdkUat/Classess/frameworks/orderPlaceWechatPaySDK/OrderPlaceWechatPaySDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OrderPlaceAlipaySDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OrderPlaceSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OrderPlaceWechatPaySDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testMyNewOrderPlaceUat/Pods-testMyNewOrderPlaceUat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E347B412E414E6A9E4C8922E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testMyNewOrderPlaceUat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		522BC50F21A6B82C00A56E52 /* Sources */ = {
@@ -213,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,15 +380,18 @@
 		};
 		522BC52621A6B82E00A56E52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E040EB031AF660A4301533 /* Pods-testMyNewOrderPlaceUat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36RXHYW79N;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = testMyNewOrderPlaceUat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = lala.testMyNewOrderPlaceUat;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.OrderPlaceSdk-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,15 +400,18 @@
 		};
 		522BC52721A6B82E00A56E52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DB64FA5203C06C6B113FC3C /* Pods-testMyNewOrderPlaceUat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36RXHYW79N;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = testMyNewOrderPlaceUat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = lala.testMyNewOrderPlaceUat;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.OrderPlaceSdk-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
