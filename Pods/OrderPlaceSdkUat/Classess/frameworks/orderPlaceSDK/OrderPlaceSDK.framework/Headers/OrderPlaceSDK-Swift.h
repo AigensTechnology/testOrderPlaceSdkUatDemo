@@ -230,10 +230,12 @@ SWIFT_CLASS("_TtC13OrderPlaceSDK10GpsService")
 
 SWIFT_CLASS("_TtC13OrderPlaceSDK10OrderPlace")
 @interface OrderPlace : NSObject
-+ (void)openUrlWithCaller:(UIViewController * _Nonnull)caller url:(NSString * _Nonnull)url options:(NSDictionary<NSString *, id> * _Nonnull)options;
-+ (void)openUrlWithCaller:(UIViewController * _Nonnull)caller url:(NSString * _Nonnull)url options:(NSDictionary<NSString *, id> * _Nonnull)options services:(NSArray<OrderPlaceService *> * _Nonnull)services;
-+ (void)scanWithCaller:(UIViewController * _Nonnull)caller options:(NSDictionary<NSString *, id> * _Nonnull)options;
++ (void)openUrlWithCaller:(UIViewController * _Nonnull)caller url:(NSString * _Nonnull)url options:(NSDictionary<NSString *, id> * _Nonnull)options closeCB:(void (^ _Nullable)(id _Nullable))closeCB;
++ (void)openUrlWithCaller:(UIViewController * _Nonnull)caller url:(NSString * _Nonnull)url options:(NSDictionary<NSString *, id> * _Nonnull)options services:(NSArray<OrderPlaceService *> * _Nonnull)services closeCB:(void (^ _Nullable)(id _Nullable))closeCB;
++ (void)scanWithCaller:(UIViewController * _Nonnull)caller options:(NSDictionary<NSString *, id> * _Nonnull)options closeCB:(void (^ _Nullable)(id _Nullable))closeCB;
++ (void)scanDecodeWithCaller:(UIViewController * _Nonnull)caller options:(NSDictionary<NSString *, id> * _Nullable)options closeCB:(void (^ _Nullable)(id _Nullable))closeCB;
 + (void)application:(UIApplication * _Nonnull)app open:(NSURL * _Nonnull)url;
++ (NSString * _Nullable)getImagePathWithNameWithName:(NSString * _Nonnull)name type:(NSString * _Nonnull)type SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -259,6 +261,9 @@ SWIFT_CLASS("_TtC13OrderPlaceSDK19OrderViewController")
 - (void)webView:(WKWebView * _Nonnull)webView runJavaScriptConfirmPanelWithMessage:(NSString * _Nonnull)message initiatedByFrame:(WKFrameInfo * _Nonnull)frame completionHandler:(void (^ _Nonnull)(BOOL))completionHandler;
 - (void)webView:(WKWebView * _Nonnull)webView runJavaScriptTextInputPanelWithPrompt:(NSString * _Nonnull)prompt defaultText:(NSString * _Nullable)defaultText initiatedByFrame:(WKFrameInfo * _Nonnull)frame completionHandler:(void (^ _Nonnull)(NSString * _Nullable))completionHandler;
 @property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
@@ -274,12 +279,37 @@ SWIFT_CLASS("_TtC13OrderPlaceSDK19OrderViewController")
 - (void)navigationController:(UINavigationController * _Nonnull)navigationController willShowViewController:(UIViewController * _Nonnull)viewController animated:(BOOL)animated;
 @end
 
+@class UIScrollView;
+
+@interface OrderViewController (SWIFT_EXTENSION(OrderPlaceSDK)) <UIScrollViewDelegate>
+- (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
+@end
+
+
+SWIFT_PROTOCOL("_TtP13OrderPlaceSDK19StripeAppleDelegate_")
+@protocol StripeAppleDelegate
+- (void)stripeAppleInitialize;
+- (void)stripeAppleMakePaymentRequest:(NSDictionary * _Nonnull)body :(CallbackHandler * _Nullable)callback;
+- (void)stripeAppleCompleteLastTransaction:(NSDictionary * _Nonnull)body :(CallbackHandler * _Nullable)callback;
+@property (nonatomic, copy) NSDictionary<NSString *, id> * _Nullable options;
+@property (nonatomic, strong) UIViewController * _Nullable baseViewController;
+@end
+
+
+
 
 SWIFT_PROTOCOL("_TtP13OrderPlaceSDK17WeChatPayDelegate_")
 @protocol WeChatPayDelegate
 - (void)wechatPayOrderWithBody:(NSDictionary * _Nonnull)body callback:(CallbackHandler * _Nullable)callback;
 - (void)wechatGetVersionWithCallback:(CallbackHandler * _Nullable)callback;
 - (void)wechatApplicationOpenUrl:(UIApplication * _Nonnull)app url:(NSURL * _Nonnull)url;
+@end
+
+
+SWIFT_PROTOCOL("_TtP13OrderPlaceSDK14cardIODelegate_")
+@protocol cardIODelegate
+- (void)scanWithBody:(NSDictionary * _Nonnull)body callback:(CallbackHandler * _Nullable)callback;
+- (void)initialize;
 @end
 
 #if __has_attribute(external_source_symbol)

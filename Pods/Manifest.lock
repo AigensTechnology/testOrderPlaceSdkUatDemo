@@ -1,24 +1,24 @@
 PODS:
-  - OrderPlaceSdkUat (0.0.4):
-    - OrderPlaceSdkUat/Core (= 0.0.4)
-  - OrderPlaceSdkUat/Alipay (0.0.4):
+  - OrderPlaceSdkUat (0.1.0):
+    - OrderPlaceSdkUat/Core (= 0.1.0)
+  - OrderPlaceSdkUat/Alipay (0.1.0):
     - OrderPlaceSdkUat/Core
-  - OrderPlaceSdkUat/Core (0.0.4)
-  - OrderPlaceSdkUat/Wechat (0.0.4):
+  - OrderPlaceSdkUat/Core (0.1.0)
+  - OrderPlaceSdkUat/Wechat (0.1.0):
     - OrderPlaceSdkUat/Core
 
 DEPENDENCIES:
-  - OrderPlaceSdkUat (~> 0.0.4)
-  - OrderPlaceSdkUat/Alipay (~> 0.0.4)
-  - OrderPlaceSdkUat/Wechat (~> 0.0.4)
+  - OrderPlaceSdkUat (~> 0.1.0)
+  - OrderPlaceSdkUat/Alipay (~> 0.1.0)
+  - OrderPlaceSdkUat/Wechat (~> 0.1.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - OrderPlaceSdkUat
 
 SPEC CHECKSUMS:
-  OrderPlaceSdkUat: 29be13a701ba128cdef53846e431e6522a04344e
+  OrderPlaceSdkUat: 115aa85e4c62d23f32d4ff487cc4e8a014662884
 
-PODFILE CHECKSUM: 9b287c9e2b855d52f611485fb9c246893e933098
+PODFILE CHECKSUM: 55eff00ad09259f7ceb2e54add1afdd5d9150acf
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.5

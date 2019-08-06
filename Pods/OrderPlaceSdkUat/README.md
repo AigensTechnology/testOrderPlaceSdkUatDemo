@@ -3,6 +3,10 @@
 If you need to upload to itunnes connection, please integrate [OrderPlaceSdkPrd
 ](https://github.com/AigensTechnology/OrderPlaceSdkPrd)
 
+## config params ref
+
+https://docs.google.com/document/d/1YkTXzsdmWD7Q8BgLVWlekI6nyiS1wcU2Y6T2aHUKiJw/edit?usp=sharing
+
 ## Installation
 
 OrderPlaceSdkUat is available through [CocoaPods](https://cocoapods.org). To install
@@ -17,7 +21,7 @@ target 'YourProjectName' do
 
   use_frameworks!
 
-pod 'OrderPlaceSdkUat', '~> 0.0.3'
+pod 'OrderPlaceSdkUat', '~> 0.1.0'
 
 end
 
@@ -26,12 +30,12 @@ end
 * If you want the alipay feature,pls
 
 ```rb
-pod 'OrderPlaceSdkUat/Alipay', '~> 0.0.3'
+pod 'OrderPlaceSdkUat/Alipay', '~> 0.1.0'
 ```
 * If you want the wechat pay feature,pls
 
 ```rb
-pod 'OrderPlaceSdkUat/Wechat', '~> 0.0.3'
+pod 'OrderPlaceSdkUat/Wechat', '~> 0.1.0'
 ```
 
 ## Requirements
