@@ -14,7 +14,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
-
     }
 
     private func allFunction() {
@@ -37,7 +36,7 @@ class ViewController: UIViewController {
 //        let options = ["features": "scan,gps", "member": member] as [String: Any];
         OrderPlace.openUrl(caller: self, url: url, options: options);
     }
-//
+
 //    private func applePay() {
 //        let url = "https://test.order.place/#/court-store-list/5175539845300224";
 //        var member = [String: Any]()
