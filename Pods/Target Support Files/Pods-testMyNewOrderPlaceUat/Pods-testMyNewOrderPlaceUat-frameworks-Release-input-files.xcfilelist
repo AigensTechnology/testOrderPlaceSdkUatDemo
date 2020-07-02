@@ -1,4 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-testMyNewOrderPlaceUat/Pods-testMyNewOrderPlaceUat-frameworks.sh
-${PODS_ROOT}/OrderPlaceSdkUat/Classess/frameworks/orderPlaceAlipaySDK/OrderPlaceAlipaySDK.framework
-${PODS_ROOT}/OrderPlaceSdkUat/Classess/frameworks/orderPlaceSDK/OrderPlaceSDK.framework
-${PODS_ROOT}/OrderPlaceSdkUat/Classess/frameworks/orderPlaceWechatPaySDK/OrderPlaceWechatPaySDK.framework
+${PODS_ROOT}/OrderPlaceSdkSwift5Prd/Classess/frameworks/orderPlaceAlipaySDK/OrderPlaceAlipaySDK.framework
+${PODS_ROOT}/OrderPlaceSdkSwift5Prd/Classess/frameworks/orderPlaceSDK/OrderPlaceSDK.framework
+${PODS_ROOT}/OrderPlaceSdkSwift5Prd/Classess/frameworks/orderPlaceWechatPaySDK/OrderPlaceWechatPaySDK.framework

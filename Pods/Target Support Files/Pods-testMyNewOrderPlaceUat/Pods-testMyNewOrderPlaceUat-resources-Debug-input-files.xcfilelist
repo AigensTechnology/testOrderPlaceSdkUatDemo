@@ -1,2 +1,2 @@
 ${PODS_ROOT}/Target Support Files/Pods-testMyNewOrderPlaceUat/Pods-testMyNewOrderPlaceUat-resources.sh
-${PODS_ROOT}/OrderPlaceSdkUat/Classess/Assets/AlipaySDK.bundle
+${PODS_ROOT}/OrderPlaceSdkSwift5Prd/Classess/Assets/AlipaySDK.bundle

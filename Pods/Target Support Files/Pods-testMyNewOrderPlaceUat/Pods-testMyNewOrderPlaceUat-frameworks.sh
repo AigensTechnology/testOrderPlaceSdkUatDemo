@@ -161,14 +161,14 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_ROOT}/OrderPlaceSdkUat/Classess/frameworks/orderPlaceAlipaySDK/OrderPlaceAlipaySDK.framework"
-  install_framework "${PODS_ROOT}/OrderPlaceSdkUat/Classess/frameworks/orderPlaceSDK/OrderPlaceSDK.framework"
-  install_framework "${PODS_ROOT}/OrderPlaceSdkUat/Classess/frameworks/orderPlaceWechatPaySDK/OrderPlaceWechatPaySDK.framework"
+  install_framework "${PODS_ROOT}/OrderPlaceSdkSwift5Prd/Classess/frameworks/orderPlaceAlipaySDK/OrderPlaceAlipaySDK.framework"
+  install_framework "${PODS_ROOT}/OrderPlaceSdkSwift5Prd/Classess/frameworks/orderPlaceSDK/OrderPlaceSDK.framework"
+  install_framework "${PODS_ROOT}/OrderPlaceSdkSwift5Prd/Classess/frameworks/orderPlaceWechatPaySDK/OrderPlaceWechatPaySDK.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_ROOT}/OrderPlaceSdkUat/Classess/frameworks/orderPlaceAlipaySDK/OrderPlaceAlipaySDK.framework"
-  install_framework "${PODS_ROOT}/OrderPlaceSdkUat/Classess/frameworks/orderPlaceSDK/OrderPlaceSDK.framework"
-  install_framework "${PODS_ROOT}/OrderPlaceSdkUat/Classess/frameworks/orderPlaceWechatPaySDK/OrderPlaceWechatPaySDK.framework"
+  install_framework "${PODS_ROOT}/OrderPlaceSdkSwift5Prd/Classess/frameworks/orderPlaceAlipaySDK/OrderPlaceAlipaySDK.framework"
+  install_framework "${PODS_ROOT}/OrderPlaceSdkSwift5Prd/Classess/frameworks/orderPlaceSDK/OrderPlaceSDK.framework"
+  install_framework "${PODS_ROOT}/OrderPlaceSdkSwift5Prd/Classess/frameworks/orderPlaceWechatPaySDK/OrderPlaceWechatPaySDK.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

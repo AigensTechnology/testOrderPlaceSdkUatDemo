@@ -1,24 +1,24 @@
 PODS:
-  - OrderPlaceSdkUat (0.1.0):
-    - OrderPlaceSdkUat/Core (= 0.1.0)
-  - OrderPlaceSdkUat/Alipay (0.1.0):
-    - OrderPlaceSdkUat/Core
-  - OrderPlaceSdkUat/Core (0.1.0)
-  - OrderPlaceSdkUat/Wechat (0.1.0):
-    - OrderPlaceSdkUat/Core
+  - OrderPlaceSdkSwift5Prd (0.1.4):
+    - OrderPlaceSdkSwift5Prd/Core (= 0.1.4)
+  - OrderPlaceSdkSwift5Prd/Alipay (0.1.4):
+    - OrderPlaceSdkSwift5Prd/Core
+  - OrderPlaceSdkSwift5Prd/Core (0.1.4)
+  - OrderPlaceSdkSwift5Prd/Wechat (0.1.4):
+    - OrderPlaceSdkSwift5Prd/Core
 
 DEPENDENCIES:
-  - OrderPlaceSdkUat (~> 0.1.0)
-  - OrderPlaceSdkUat/Alipay (~> 0.1.0)
-  - OrderPlaceSdkUat/Wechat (~> 0.1.0)
+  - OrderPlaceSdkSwift5Prd (~> 0.1.4)
+  - OrderPlaceSdkSwift5Prd/Alipay (~> 0.1.4)
+  - OrderPlaceSdkSwift5Prd/Wechat (~> 0.1.4)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - OrderPlaceSdkUat
+    - OrderPlaceSdkSwift5Prd
 
 SPEC CHECKSUMS:
-  OrderPlaceSdkUat: 115aa85e4c62d23f32d4ff487cc4e8a014662884
+  OrderPlaceSdkSwift5Prd: e9e3d28f8863d9330e3c2d7d868a58572a8173cd
 
-PODFILE CHECKSUM: 55eff00ad09259f7ceb2e54add1afdd5d9150acf
+PODFILE CHECKSUM: 76b213acebecf910e8bed4ad963033cc717683a4
 
 COCOAPODS: 1.7.5

@@ -9,6 +9,7 @@
 import UIKit
 import OrderPlaceSDK
 import OrderPlaceWechatPaySDK
+import OrderPlaceAlipaySDK
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

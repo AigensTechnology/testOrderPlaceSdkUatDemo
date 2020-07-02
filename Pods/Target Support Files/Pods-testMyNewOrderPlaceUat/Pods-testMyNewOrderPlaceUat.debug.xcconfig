@@ -1,7 +1,7 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/OrderPlaceSdkUat/Classess/frameworks/orderPlaceAlipaySDK" "${PODS_ROOT}/OrderPlaceSdkUat/Classess/frameworks/orderPlaceSDK" "${PODS_ROOT}/OrderPlaceSdkUat/Classess/frameworks/orderPlaceWechatPaySDK"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/OrderPlaceSdkSwift5Prd/Classess/frameworks/orderPlaceAlipaySDK" "${PODS_ROOT}/OrderPlaceSdkSwift5Prd/Classess/frameworks/orderPlaceSDK" "${PODS_ROOT}/OrderPlaceSdkSwift5Prd/Classess/frameworks/orderPlaceWechatPaySDK"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/OrderPlaceSdkUat/Classess/frameworks/orderPlaceWechatPaySDK"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/OrderPlaceSdkSwift5Prd/Classess/frameworks/orderPlaceWechatPaySDK"
 OTHER_LDFLAGS = $(inherited) -ObjC -l"WeChatSDK" -l"c++" -l"sqlite3.0" -l"z" -framework "AVFoundation" -framework "AddressBook" -framework "AlipaySDK" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreMotion" -framework "CoreTelephony" -framework "CoreText" -framework "Foundation" -framework "OrderPlaceAlipaySDK" -framework "OrderPlaceSDK" -framework "OrderPlaceWechatPaySDK" -framework "PassKit" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "WebKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

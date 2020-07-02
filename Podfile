@@ -4,8 +4,11 @@ platform :ios, '9.0'
 target 'testMyNewOrderPlaceUat' do
   
   use_frameworks!
-pod 'OrderPlaceSdkUat', '~> 0.1.0'
-pod 'OrderPlaceSdkUat/Alipay', '~> 0.1.0'
-pod 'OrderPlaceSdkUat/Wechat', '~> 0.1.0'
+pod 'OrderPlaceSdkSwift5Prd', '~> 0.1.4'
+pod 'OrderPlaceSdkSwift5Prd/Alipay', '~> 0.1.4'
+pod 'OrderPlaceSdkSwift5Prd/Wechat', '~> 0.1.4'
 
+#pod 'OrderPlaceSdkSwift5Uat', '~> 0.1.4'
+#pod 'OrderPlaceSdkSwift5Uat/Alipay', '~> 0.1.4'
+#pod 'OrderPlaceSdkSwift5Uat/Wechat', '~> 0.1.4'
 end

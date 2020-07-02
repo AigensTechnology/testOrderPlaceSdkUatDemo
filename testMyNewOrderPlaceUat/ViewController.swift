@@ -31,7 +31,8 @@ class ViewController: UIViewController {
         member["age"] = 25 //Optional (with actual data)
         member["phone"] = "65448231" //Optional (with actual data)
         member["email"] = "peter.liu@gmail.com" //Optional (with actual data)
-        let  options = ["features": "scan,gps,applepay,alipayhk,wechatpayhk", "member": member,"appleMerchantIdentifier": "your apple Merchant Identifier","alipayScheme": "alipaySchemes123","disableScroll":true] as [String : Any];
+        // "appleMerchantIdentifier": "your apple Merchant Identifier" , if you need apple pay
+        let  options = ["features": "scan,gps,applepay,alipayhk,wechatpay", "member": member,"appleMerchantIdentifier": "your apple Merchant Identifier","alipayScheme": "your aliapay scheme"] as [String : Any];
 //        let options = ["features": "scan,gps", "member": member] as [String: Any];
         OrderPlace.openUrl(caller: self, url: url, options: options);
     }

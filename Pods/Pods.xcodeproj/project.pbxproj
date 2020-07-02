@@ -3,87 +3,79 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		6C0A7C487AD330DD052D4E7A2CC12CD8 /* OrderPlaceSdkUat */ = {
+		8E242B038FD175B4C078B99627D95D61 /* OrderPlaceSdkSwift5Prd */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 293A46BEEA4F341C581BD57183FCFFF3 /* Build configuration list for PBXAggregateTarget "OrderPlaceSdkUat" */;
+			buildConfigurationList = 647B0F23E2466CD799D22B7D2DD8A4A7 /* Build configuration list for PBXAggregateTarget "OrderPlaceSdkSwift5Prd" */;
 			buildPhases = (
 			);
 			dependencies = (
 			);
-			name = OrderPlaceSdkUat;
+			name = OrderPlaceSdkSwift5Prd;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		699B7142171AF227BEE1718190C7C6A9 /* Pods-testMyNewOrderPlaceUat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7786DDB17FB8FCD5E7A8154C0A9FBDA /* Pods-testMyNewOrderPlaceUat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDC52BC8D3994E00EB98EEC7299F3864 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		FBB7690207510A137227554655BDE690 /* Pods-testMyNewOrderPlaceUat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C95EB0FC7089A21841D27CD9C4753CD /* Pods-testMyNewOrderPlaceUat-dummy.m */; };
+		24003C004D42823702821588BE090C01 /* Pods-testMyNewOrderPlaceUat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C95EB0FC7089A21841D27CD9C4753CD /* Pods-testMyNewOrderPlaceUat-dummy.m */; };
+		5231D886F2DC6985805CD9D1F39F4734 /* Pods-testMyNewOrderPlaceUat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7786DDB17FB8FCD5E7A8154C0A9FBDA /* Pods-testMyNewOrderPlaceUat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9E2CA3C3CE92132381C57630E1FA44F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1CCCE9F2EFF32E1B06A664FFCC05C2E3 /* PBXContainerItemProxy */ = {
+		EB2C77B5F3B23DCF346EA950FC4EE130 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6C0A7C487AD330DD052D4E7A2CC12CD8;
-			remoteInfo = OrderPlaceSdkUat;
+			remoteGlobalIDString = 8E242B038FD175B4C078B99627D95D61;
+			remoteInfo = OrderPlaceSdkSwift5Prd;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14B8E45EDE87021C29E8F0DEE3BE7185 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = Classess/frameworks/orderPlaceAlipaySDK/AlipaySDK.framework; sourceTree = "<group>"; };
+		181E871DDA469139233DD4AD31C2B31E /* OrderPlaceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OrderPlaceSDK.framework; path = Classess/frameworks/orderPlaceSDK/OrderPlaceSDK.framework; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		43485CC115DDE75EC9927015D379C396 /* Pods-testMyNewOrderPlaceUat-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testMyNewOrderPlaceUat-resources.sh"; sourceTree = "<group>"; };
-		4C2663DDD1FFA64A499567FD7E639510 /* OrderPlaceSdkUat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OrderPlaceSdkUat.xcconfig; sourceTree = "<group>"; };
-		5684223803FDD87CA06063DA54B90BE9 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = Classess/Assets/AlipaySDK.bundle; sourceTree = "<group>"; };
-		59AF6820AD6D7C379C93AF0B4ACFB678 /* OrderPlaceWechatPaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OrderPlaceWechatPaySDK.framework; path = Classess/frameworks/orderPlaceWechatPaySDK/OrderPlaceWechatPaySDK.framework; sourceTree = "<group>"; };
-		5B75E9B9956BCA62FFA4D35E40EF84DF /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = Classess/frameworks/orderPlaceWechatPaySDK/libWeChatSDK.a; sourceTree = "<group>"; };
+		46C5FEFB1BE4D9FBCF8CC4816490BF43 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = Classess/Assets/AlipaySDK.bundle; sourceTree = "<group>"; };
+		50F5439407F1FCDBDDA7C1269C654373 /* OrderPlaceSdkSwift5Prd.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OrderPlaceSdkSwift5Prd.xcconfig; sourceTree = "<group>"; };
 		5C95EB0FC7089A21841D27CD9C4753CD /* Pods-testMyNewOrderPlaceUat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-testMyNewOrderPlaceUat-dummy.m"; sourceTree = "<group>"; };
 		625C8B983872E5E3EA15B861B1645DC9 /* Pods-testMyNewOrderPlaceUat-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testMyNewOrderPlaceUat-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6D3A1AFAE93C6064C8D8190641B7137D /* Pods-testMyNewOrderPlaceUat-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testMyNewOrderPlaceUat-acknowledgements.plist"; sourceTree = "<group>"; };
-		901F4908A9237F7318144F9D5DA04802 /* OrderPlaceAlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OrderPlaceAlipaySDK.framework; path = Classess/frameworks/orderPlaceAlipaySDK/OrderPlaceAlipaySDK.framework; sourceTree = "<group>"; };
+		71638146C7BD4FBB83F371616E7C8800 /* OrderPlaceWechatPaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OrderPlaceWechatPaySDK.framework; path = Classess/frameworks/orderPlaceWechatPaySDK/OrderPlaceWechatPaySDK.framework; sourceTree = "<group>"; };
+		9D2B69975AF08D7AC37F8DEB2DC1BEC2 /* OrderPlaceAlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OrderPlaceAlipaySDK.framework; path = Classess/frameworks/orderPlaceAlipaySDK/OrderPlaceAlipaySDK.framework; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A23B03E004BDB114193509C19745A00F /* OrderPlaceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OrderPlaceSDK.framework; path = Classess/frameworks/orderPlaceSDK/OrderPlaceSDK.framework; sourceTree = "<group>"; };
 		AF49562FC7FD2E5BC147BF47B1EE748D /* Pods_testMyNewOrderPlaceUat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_testMyNewOrderPlaceUat.framework; path = "Pods-testMyNewOrderPlaceUat.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB4AF235DAD28A5D6D2626196210D15 /* Pods-testMyNewOrderPlaceUat-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testMyNewOrderPlaceUat-Info.plist"; sourceTree = "<group>"; };
 		B31FD9A24621F59D3B32CC402E460CC3 /* Pods-testMyNewOrderPlaceUat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-testMyNewOrderPlaceUat.modulemap"; sourceTree = "<group>"; };
 		B7786DDB17FB8FCD5E7A8154C0A9FBDA /* Pods-testMyNewOrderPlaceUat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-testMyNewOrderPlaceUat-umbrella.h"; sourceTree = "<group>"; };
 		BAD8B0F6BE375FFD0C8BF0830D1E6FA4 /* Pods-testMyNewOrderPlaceUat-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testMyNewOrderPlaceUat-frameworks.sh"; sourceTree = "<group>"; };
 		CA4139845D6CF635BC4C6C9B77561687 /* Pods-testMyNewOrderPlaceUat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testMyNewOrderPlaceUat.release.xcconfig"; sourceTree = "<group>"; };
-		EBA645852D0F6B7D51492F0DFC2E3FD7 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = Classess/frameworks/orderPlaceAlipaySDK/AlipaySDK.framework; sourceTree = "<group>"; };
+		D31CE657E91648A6764BFDDA15F7DA92 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = Classess/frameworks/orderPlaceWechatPaySDK/libWeChatSDK.a; sourceTree = "<group>"; };
 		FF7D66DE3C36C343F40AB36A35EF706B /* Pods-testMyNewOrderPlaceUat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testMyNewOrderPlaceUat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7852CFAFA27ACFBED7E6967C38D8BB99 /* Frameworks */ = {
+		FD6A8D6C981D727F5E9F38644D5D0986 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDC52BC8D3994E00EB98EEC7299F3864 /* Foundation.framework in Frameworks */,
+				E9E2CA3C3CE92132381C57630E1FA44F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		019771DB60235426D59ACF93B2D0A673 /* Resources */ = {
+		2D51E3C6A9DF8AE375A4C1FB26723D3A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5684223803FDD87CA06063DA54B90BE9 /* AlipaySDK.bundle */,
+				14B8E45EDE87021C29E8F0DEE3BE7185 /* AlipaySDK.framework */,
+				9D2B69975AF08D7AC37F8DEB2DC1BEC2 /* OrderPlaceAlipaySDK.framework */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		304EE17D1DF3539DBE3619A3230CC5DB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4C2663DDD1FFA64A499567FD7E639510 /* OrderPlaceSdkUat.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/OrderPlaceSdkUat";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		34D3E8900C8D8F6B51E8231C260AF939 /* Targets Support Files */ = {
@@ -94,21 +86,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3BCAFD7BDCB13F7B4A9D4CC20838BD24 /* Frameworks */ = {
+		54A178F846A3E5D0C4DD826EB6195CF7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5B75E9B9956BCA62FFA4D35E40EF84DF /* libWeChatSDK.a */,
-				59AF6820AD6D7C379C93AF0B4ACFB678 /* OrderPlaceWechatPaySDK.framework */,
+				D31CE657E91648A6764BFDDA15F7DA92 /* libWeChatSDK.a */,
+				71638146C7BD4FBB83F371616E7C8800 /* OrderPlaceWechatPaySDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		604CEF162C08C6F1CC928DDB05DA07AB /* Core */ = {
+		5FBC49B88B9222B70D110BF227FCC67C /* OrderPlaceSdkSwift5Prd */ = {
 			isa = PBXGroup;
 			children = (
-				E68334DE75E2967A4BE0EE2AC9ABCF58 /* Frameworks */,
+				DF786F7813D3CAB645A0A953D4AB6B41 /* Alipay */,
+				A20A18615F576CD6FC80DC93D7017541 /* Core */,
+				83D79AB355DD5B65541C747AEB65778C /* Support Files */,
+				E04AB3E5D2661A5915CD7CB9EC0E4131 /* Wechat */,
 			);
-			name = Core;
+			name = OrderPlaceSdkSwift5Prd;
+			path = OrderPlaceSdkSwift5Prd;
 			sourceTree = "<group>";
 		};
 		6551A9F75AA8C93F189711B3726632A6 /* Pods-testMyNewOrderPlaceUat */ = {
@@ -129,16 +125,12 @@
 			path = "Target Support Files/Pods-testMyNewOrderPlaceUat";
 			sourceTree = "<group>";
 		};
-		6E3AC885A03418FC0B58B8556CC27EEF /* OrderPlaceSdkUat */ = {
+		6EEA6DBB26C4F10220366152A1396E84 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				97DF555E0D78A5AB6453DD9203AB63CC /* Alipay */,
-				604CEF162C08C6F1CC928DDB05DA07AB /* Core */,
-				304EE17D1DF3539DBE3619A3230CC5DB /* Support Files */,
-				C9277FB2CB8431D55B5CD6D5956C8A06 /* Wechat */,
+				5FBC49B88B9222B70D110BF227FCC67C /* OrderPlaceSdkSwift5Prd */,
 			);
-			name = OrderPlaceSdkUat;
-			path = OrderPlaceSdkUat;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		736ED379A929309851443A3B8124C112 /* Products */ = {
@@ -149,30 +141,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		76E09DF1A55189401C22D5B460210792 /* Pods */ = {
+		83D79AB355DD5B65541C747AEB65778C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6E3AC885A03418FC0B58B8556CC27EEF /* OrderPlaceSdkUat */,
+				50F5439407F1FCDBDDA7C1269C654373 /* OrderPlaceSdkSwift5Prd.xcconfig */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/OrderPlaceSdkSwift5Prd";
 			sourceTree = "<group>";
 		};
-		97DF555E0D78A5AB6453DD9203AB63CC /* Alipay */ = {
+		99A95774FF2C46723FD94FA4DC4A8C99 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				98E14FA6399A68EB0B87EA8F7FD57CD2 /* Frameworks */,
-				019771DB60235426D59ACF93B2D0A673 /* Resources */,
+				46C5FEFB1BE4D9FBCF8CC4816490BF43 /* AlipaySDK.bundle */,
 			);
-			name = Alipay;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		98E14FA6399A68EB0B87EA8F7FD57CD2 /* Frameworks */ = {
+		A20A18615F576CD6FC80DC93D7017541 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				EBA645852D0F6B7D51492F0DFC2E3FD7 /* AlipaySDK.framework */,
-				901F4908A9237F7318144F9D5DA04802 /* OrderPlaceAlipaySDK.framework */,
+				FC9FBB996369E6F4F3695A52A0DAC7B8 /* Frameworks */,
 			);
-			name = Frameworks;
+			name = Core;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -183,20 +174,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C9277FB2CB8431D55B5CD6D5956C8A06 /* Wechat */ = {
-			isa = PBXGroup;
-			children = (
-				3BCAFD7BDCB13F7B4A9D4CC20838BD24 /* Frameworks */,
-			);
-			name = Wechat;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				76E09DF1A55189401C22D5B460210792 /* Pods */,
+				6EEA6DBB26C4F10220366152A1396E84 /* Pods */,
 				736ED379A929309851443A3B8124C112 /* Products */,
 				34D3E8900C8D8F6B51E8231C260AF939 /* Targets Support Files */,
 			);
@@ -210,10 +193,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E68334DE75E2967A4BE0EE2AC9ABCF58 /* Frameworks */ = {
+		DF786F7813D3CAB645A0A953D4AB6B41 /* Alipay */ = {
 			isa = PBXGroup;
 			children = (
-				A23B03E004BDB114193509C19745A00F /* OrderPlaceSDK.framework */,
+				2D51E3C6A9DF8AE375A4C1FB26723D3A /* Frameworks */,
+				99A95774FF2C46723FD94FA4DC4A8C99 /* Resources */,
+			);
+			name = Alipay;
+			sourceTree = "<group>";
+		};
+		E04AB3E5D2661A5915CD7CB9EC0E4131 /* Wechat */ = {
+			isa = PBXGroup;
+			children = (
+				54A178F846A3E5D0C4DD826EB6195CF7 /* Frameworks */,
+			);
+			name = Wechat;
+			sourceTree = "<group>";
+		};
+		FC9FBB996369E6F4F3695A52A0DAC7B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				181E871DDA469139233DD4AD31C2B31E /* OrderPlaceSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -221,11 +221,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		092801F0DE5E5BD40505B4D108EF6697 /* Headers */ = {
+		D20333993078027B75282CCCEA1DD3DC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				699B7142171AF227BEE1718190C7C6A9 /* Pods-testMyNewOrderPlaceUat-umbrella.h in Headers */,
+				5231D886F2DC6985805CD9D1F39F4734 /* Pods-testMyNewOrderPlaceUat-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,17 +234,17 @@
 /* Begin PBXNativeTarget section */
 		CD3F84C19502114D8B5DA9A1093A7009 /* Pods-testMyNewOrderPlaceUat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 052B345D933B43E2AD74F0F04A393D01 /* Build configuration list for PBXNativeTarget "Pods-testMyNewOrderPlaceUat" */;
+			buildConfigurationList = 5F185DA7C396B82F55407F1791029867 /* Build configuration list for PBXNativeTarget "Pods-testMyNewOrderPlaceUat" */;
 			buildPhases = (
-				092801F0DE5E5BD40505B4D108EF6697 /* Headers */,
-				07B286AE06C9568EB25C59CE0373E46B /* Sources */,
-				7852CFAFA27ACFBED7E6967C38D8BB99 /* Frameworks */,
-				FE9347087BAE418916C90EDC461722E0 /* Resources */,
+				D20333993078027B75282CCCEA1DD3DC /* Headers */,
+				BD7FC61E49C813E3AD4913FB006A2F46 /* Sources */,
+				FD6A8D6C981D727F5E9F38644D5D0986 /* Frameworks */,
+				FC1E8C10F9DB545657C78B6F384BD0BB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				96C0D2346CE2DD34FBC416A9BC4044D5 /* PBXTargetDependency */,
+				C0AD57D1A30617E5E6281F36BFA827A3 /* PBXTargetDependency */,
 			);
 			name = "Pods-testMyNewOrderPlaceUat";
 			productName = "Pods-testMyNewOrderPlaceUat";
@@ -261,7 +261,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -272,14 +272,14 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6C0A7C487AD330DD052D4E7A2CC12CD8 /* OrderPlaceSdkUat */,
+				8E242B038FD175B4C078B99627D95D61 /* OrderPlaceSdkSwift5Prd */,
 				CD3F84C19502114D8B5DA9A1093A7009 /* Pods-testMyNewOrderPlaceUat */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FE9347087BAE418916C90EDC461722E0 /* Resources */ = {
+		FC1E8C10F9DB545657C78B6F384BD0BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -289,50 +289,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		07B286AE06C9568EB25C59CE0373E46B /* Sources */ = {
+		BD7FC61E49C813E3AD4913FB006A2F46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBB7690207510A137227554655BDE690 /* Pods-testMyNewOrderPlaceUat-dummy.m in Sources */,
+				24003C004D42823702821588BE090C01 /* Pods-testMyNewOrderPlaceUat-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		96C0D2346CE2DD34FBC416A9BC4044D5 /* PBXTargetDependency */ = {
+		C0AD57D1A30617E5E6281F36BFA827A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = OrderPlaceSdkUat;
-			target = 6C0A7C487AD330DD052D4E7A2CC12CD8 /* OrderPlaceSdkUat */;
-			targetProxy = 1CCCE9F2EFF32E1B06A664FFCC05C2E3 /* PBXContainerItemProxy */;
+			name = OrderPlaceSdkSwift5Prd;
+			target = 8E242B038FD175B4C078B99627D95D61 /* OrderPlaceSdkSwift5Prd */;
+			targetProxy = EB2C77B5F3B23DCF346EA950FC4EE130 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10684F577075BF5ADA29A3B460513A5E /* Release */ = {
+		2AA8386818332B08E18222EE92D0EBEA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C2663DDD1FFA64A499567FD7E639510 /* OrderPlaceSdkUat.xcconfig */;
+			baseConfigurationReference = 50F5439407F1FCDBDDA7C1269C654373 /* OrderPlaceSdkSwift5Prd.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		1EBA57BCD1BAEBC0DD387A92514B8A36 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C2663DDD1FFA64A499567FD7E639510 /* OrderPlaceSdkUat.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -342,7 +325,45 @@
 			};
 			name = Debug;
 		};
-		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+		7352E5B1FB3DCFE3D105AF32283E82AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA4139845D6CF635BC4C6C9B77561687 /* Pods-testMyNewOrderPlaceUat.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-testMyNewOrderPlaceUat/Pods-testMyNewOrderPlaceUat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-testMyNewOrderPlaceUat/Pods-testMyNewOrderPlaceUat.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -390,7 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -402,44 +423,7 @@
 			};
 			name = Release;
 		};
-		5E8F7D7AC68DEDB7900166B18F9CAF2B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF7D66DE3C36C343F40AB36A35EF706B /* Pods-testMyNewOrderPlaceUat.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-testMyNewOrderPlaceUat/Pods-testMyNewOrderPlaceUat-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-testMyNewOrderPlaceUat/Pods-testMyNewOrderPlaceUat.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -490,7 +474,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -503,9 +487,9 @@
 			};
 			name = Debug;
 		};
-		DB65B779907394364C0F1D546904C691 /* Release */ = {
+		E916576DFF63E90F049CB4D7ED7C48C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA4139845D6CF635BC4C6C9B77561687 /* Pods-testMyNewOrderPlaceUat.release.xcconfig */;
+			baseConfigurationReference = FF7D66DE3C36C343F40AB36A35EF706B /* Pods-testMyNewOrderPlaceUat.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -519,7 +503,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-testMyNewOrderPlaceUat/Pods-testMyNewOrderPlaceUat-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -535,38 +519,54 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3B8138281C6E97A1D0BED29B19C7C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50F5439407F1FCDBDDA7C1269C654373 /* OrderPlaceSdkSwift5Prd.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		052B345D933B43E2AD74F0F04A393D01 /* Build configuration list for PBXNativeTarget "Pods-testMyNewOrderPlaceUat" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5E8F7D7AC68DEDB7900166B18F9CAF2B /* Debug */,
-				DB65B779907394364C0F1D546904C691 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		293A46BEEA4F341C581BD57183FCFFF3 /* Build configuration list for PBXAggregateTarget "OrderPlaceSdkUat" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1EBA57BCD1BAEBC0DD387A92514B8A36 /* Debug */,
-				10684F577075BF5ADA29A3B460513A5E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
-				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F185DA7C396B82F55407F1791029867 /* Build configuration list for PBXNativeTarget "Pods-testMyNewOrderPlaceUat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E916576DFF63E90F049CB4D7ED7C48C9 /* Debug */,
+				7352E5B1FB3DCFE3D105AF32283E82AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		647B0F23E2466CD799D22B7D2DD8A4A7 /* Build configuration list for PBXAggregateTarget "OrderPlaceSdkSwift5Prd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AA8386818332B08E18222EE92D0EBEA /* Debug */,
+				F3B8138281C6E97A1D0BED29B19C7C3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

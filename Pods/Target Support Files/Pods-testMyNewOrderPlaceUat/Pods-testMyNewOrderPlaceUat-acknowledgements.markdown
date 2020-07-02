@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## OrderPlaceSdkUat
+## OrderPlaceSdkSwift5Prd
 
 Copyright (c) 2018 Aigens
 
